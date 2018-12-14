@@ -26,10 +26,11 @@
   "license": "MIT",
   "homepage": "https://github.com/dash14/vuedoc-md",
   "dependencies": {
+    "@textlint/markdown-to-ast": "^6.0.9",
     "@vuedoc/parser": "git+https://github.com/dash14/vuedoc-parser.git",
+    "acorn": "^6.0.4",
     "ast-to-markdown": "^0.2.2",
     "deepmerge": "^2.2.1",
-    "markdown-to-ast": "^6.0.3",
     "md-node-inject": "^0.1.1",
     "mdast-util-to-string": "^1.0.5"
   },
