@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/vuedoc/md.git"
+    "url": "git+https://github.com/dash14/vuedoc-md.git"
   },
   "keywords": [
     "vuedoc",
@@ -24,12 +24,9 @@
   ],
   "author": "Sébastien Demanou",
   "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/vuedoc/md/issues"
-  },
-  "homepage": "https://gitlab.com/vuedoc/md",
+  "homepage": "https://github.com/dash14/vuedoc-md",
   "dependencies": {
-    "@vuedoc/parser": "^1.4.0",
+    "@vuedoc/parser": "git+https://github.com/dash14/vuedoc-parser.git",
     "ast-to-markdown": "^0.2.2",
     "deepmerge": "^3.0.0",
     "markdown-to-ast": "^6.0.3",
